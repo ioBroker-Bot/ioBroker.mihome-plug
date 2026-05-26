@@ -96,7 +96,6 @@
     "tier": 2,
     "icon": "mihome-plug.png",
     "readme": "https://github.com/iobroker-community-adapters/ioBroker.mihome-plug/blob/master/README.md",
-    "materialize": true,
     "keywords": [
       "url",
       "html",
@@ -118,7 +117,10 @@
       {
         "admin": ">=7.7.22"
       }
-    ]
+    ],
+    "adminUI": {
+      "config": "materialize"
+    }
   },
   "native": {
     "ip": "0.0.0.0",
